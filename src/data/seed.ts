@@ -914,6 +914,6 @@ export function generateSeed(anchor: Date = new Date()): DB {
     roles,
     users,
     loyalty: { regularMinOrders: 2, loyalMinOrders: 4 },
-    settings: { appName: "ANASS VISION" },
+    settings: { appName: "OPTICOR" },
   };
 }

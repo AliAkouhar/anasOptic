@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
   const { locale } = await params;
   const t = await getTranslations({ locale: locale as "fr" | "en", namespace: "meta" });
   return {
-    title: { default: `ANASS VISION · ${t("title")}`, template: "%s · ANASS VISION" },
+    title: { default: `OPTICOR · ${t("title")}`, template: "%s · OPTICOR" },
     description: t("description"),
   };
 }
